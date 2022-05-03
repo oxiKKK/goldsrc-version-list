@@ -8,13 +8,13 @@ A complete list of GoldSrc versions and build dates.
 | n/a                 | _"Exe: 21:52:31 Nov  1 1998"_       | 738     |
 | n/a                 | _"Exe: 10:41:25 May 11 1999"_       | 929     |
 | n/a                 | _"Exe build: 17:57:35 Sep 20 2001"_ | 1792    |
-| n/a                 | _Corrupted binary_                  | 2511    |
-| n/a                 | _Corrupted binary_                  | 2526    |
-| n/a                 | _Corrupted binary_                  | 2603    |
-| n/a                 | _Corrupted binary_                  | 3219    |
+| n/a                 | _"Exe build: 19:25:03 Sep 09 2003"_ | 2511    |
+| n/a                 | _"Exe build: 19:04:53 Sep 24 2003"_ | 2526    |
+| n/a                 | _"Exe build: 11:12:39 Dec 10 2003"_ | 2603    |
+| n/a                 | _"Exe build: 23:55:59 Aug 17 2005"_ | 3219    |
 | n/a                 | _"Exe build: 10:56:59 Oct  3 2005"_ | 3266    |
-| n/a                 | _Corrupted binary_                  | 3647    |
-| n/a                 | _Corrupted binary_                  | 4156    |
+| n/a                 | _"Exe build: 21:31:56 Oct 19 2006"_ | 3647    |
+| n/a                 | _"Exe build: 14:58:37 Mar 11 2008"_ | 4156    |
 | n/a                 | _"Exe build: 16:05:41 Jun 15 2009"_ | 4554    |
 | 1708995082918278930 | _"Exe build: 13:19:56 Jan 31 2013"_ | 5943    |
 | 2718197018731051564 | _"Exe build: 12:35:53 Feb  1 2013"_ | 5944    |
