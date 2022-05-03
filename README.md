@@ -5,7 +5,8 @@ A complete list of GoldSrc versions and build dates.
 
 | Depot #             | Exe build string                    | Build # |
 | :----------------:  | ----------------------------------- | :-----: |
-| n/a                 | _"Exe:       21:52:31 Nov  1 1998"_ | 738     |
+| n/a                 | _"Exe: 21:52:31 Nov  1 1998"_       | 738     |
+| n/a                 | _"Exe: 10:41:25 May 11 1999"_       | 929     |
 | n/a                 | _"Exe build: 17:57:35 Sep 20 2001"_ | 1792    |
 | n/a                 | _Corrupted binary_                  | 2511    |
 | n/a                 | _Corrupted binary_                  | 2526    |
