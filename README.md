@@ -1,5 +1,33 @@
 # goldsrc-version-list
-A complete list of GoldSrc versions and build dates.
+
+This is an `almost` complete list of all available goldsrc builds and their build dates. 
+
+For more information read below.
+
+# How to download available depots
+
+In order to download you need to have access to the steam console. You can access it via steam client.
+
+1. Copy the `depot ID` you want to download. e.g. _1708995082918278930_ for the build _#5943_.
+2. Open the steam console. (you can use browser to do that, simply enter `steam://nav/console` and it will open the console via steam client.)
+3. Type in command `download_depot 10 2 ID`, where `ID` is the `depot ID`.
+4. After successful download you should see message `"Depot download complete"` and then the directory where it was downloaded to.
+
+Thanks to @lujiangz for pointing this out.
+
+# Additional information about steam depots
+
+### How to Download Older Versions of a Steam Game:
+
+_https://steamcommunity.com/sharedfiles/filedetails/?id=889624474_
+
+# How this was accomplished
+
+In order to download individual depots for GoldSrc i used _https://github.com/SteamRE/DepotDownloader_. However the other method that was described earlier can be used to download individual depots as well.
+
+Then I made a utility that searched for string _"Exe build:"_ inside individual depot's _hw.dll_, from that got the build date and from that calculated the build version. 
+
+The original reverse-engineered GoldSrc build number generator can be found here: _[goldsrc-reversed-build_number-function](https://github.com/oxiKKK/goldsrc-reversed-build_number-function)_.
 
 # Actual list
 
