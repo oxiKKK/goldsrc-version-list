@@ -8,9 +8,9 @@ For more information read below.
 
 In order to download you need to have access to the steam console. You can access it via steam client.
 
-1. Copy the `depot ID` you want to download. e.g. _1708995082918278930_ for the build _#5943_.
+1. Copy the `Manifest ID` you want to download. e.g. _1708995082918278930_ for the build _#5943_.
 2. Open the steam console. (you can use browser to do that, simply enter `steam://nav/console` and it will open the console via steam client.)
-3. Type in command `download_depot 10 2 ID`, where `ID` is the `depot ID`.
+3. Type in command `download_depot 10 2 ID`, where `ID` is the `Manifest ID`.
 4. After successful download you should see message `"Depot download complete"` and then the directory where it was downloaded to.
 
 Thanks to @lujiangz for pointing this out.
@@ -31,7 +31,7 @@ The original reverse-engineered GoldSrc build number generator can be found here
 
 # Actual list
 
-| Depot #             | Exe build string                    | Build # |
+| Manifest #          | Exe build string                    | Build # |
 | :----------------:  | ----------------------------------- | :-----: |
 | n/a                 | _"Exe: 21:52:31 Nov  1 1998"_       | 738     |
 | n/a                 | _"Exe: 10:41:25 May 11 1999"_       | 929     |
