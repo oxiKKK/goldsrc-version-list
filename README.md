@@ -1,10 +1,14 @@
-# goldsrc-version-list
+# :file_folder: Gold-Source Version List w/ binaries
 
-This is an `almost` complete list of all available goldsrc builds and their build dates. 
+This is an `almost` complete list of all available goldsrc builds, their build dates and since `6th July 2022` this repository also contains a full set of original binaries for every single build listed below.
 
-For more information read below.
+# :orange_book: Non-depot builds
 
-# How to download available depots
+Non-depod builds, i.e. builds before 2013, were gathered from various resources from all over the interet. I'm aware of that there're various builds that I've missed, and so if you want to contribute to this project, feel free to. 
+
+# :blue_book: Depot builds
+
+## :grey_question: How to download available depots
 
 In order to download you need to have access to the steam console. You can access it via steam client.
 
@@ -15,13 +19,13 @@ In order to download you need to have access to the steam console. You can acces
 
 Thanks to @lujiangz for pointing this out.
 
-# Additional information about steam depots
+## :grey_exclamation: Additional information about steam depots
 
 ### How to Download Older Versions of a Steam Game:
 
 _https://steamcommunity.com/sharedfiles/filedetails/?id=889624474_
 
-# How this was accomplished
+## :grey_question: How this was accomplished
 
 In order to download individual depots for GoldSrc i used _https://github.com/SteamRE/DepotDownloader_. However the other method that was described earlier can be used to download individual depots as well.
 
@@ -29,7 +33,7 @@ Then I made a utility that searched for string _"Exe build:"_ inside individual 
 
 The original reverse-engineered GoldSrc build number generator can be found here: _[goldsrc-reversed-build_number-function](https://github.com/oxiKKK/goldsrc-reversed-build_number-function)_.
 
-# Actual list
+# :page_facing_up: Actual list
 
 | Manifest #          | Exe build string                    | Build # |
 | :----------------:  | ----------------------------------- | :-----: |
