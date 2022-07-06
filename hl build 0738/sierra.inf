@@ -1,0 +1,93 @@
+; The SIERRA.INF
+; This is a sample SIERRA.INF.  To build the INF for your project, start with 
+; this template and make the appropriate modifications.
+; This file must be on the root of the CD if the setup is compiled with _SIERRA defined.
+;
+; Created June 1997-  D'Andre Pritchett
+
+
+; The Ident Section contains identifying elements concerning the product.  This
+; Information is used within Setup and by Electronic Registration(EREG).
+; It is important the following items are present.
+
+[Ident]
+; ProductID is the identifying code used by EREG.  It can be any combination of 
+; alphanumeric characters.
+ProductID=70365
+
+; Version is the version of the application.  This is also used by EREG to identify
+; the product
+Version=1.0.0.5
+PatchVersion=1.0.0.5
+
+; ShortTitle is used internally to track Registry entries for EREG, AutoUpdate and 
+; other Sierra Utilities.  This should stay the same between versions of the same
+; product
+
+;If this is not HL, AutoUpdate will not function.
+ShortTitle=HALFLIFE
+
+Title=Half-Life
+
+; UpdateAfter is used for automatic product updating during the install process.
+; This allows a developer to tell autoupdate that after a certain date there may be
+; patches available, so as part of the installation process go ahead and check for them.
+; If this parameter is missing, then this feature is disables.  This feature requires
+; _SIERRA to be defined.  The format of the date is MM-DD-YYYY.
+UpdateAfter=9-1-1998
+
+; WebPage is used for the web page button.  You can specify the page to open when the 
+; product is selected as the target page.  SierraWeb is the default page if this is left
+; blank.
+WebPage=http://www.sierra.com
+
+; Readme is the name of the readme file to display under SierraUtilities.  You will need
+; provide the path to the readme from you application install directory
+Readme=readme.txt 
+
+; StrippedDemo indicates whether the product is a stripped down demo.  If it is, the
+; installation program will skip installation of Sierra Utilities, electronic registration,
+; installation of DirectX, and the sound tests.  The default is 0, indicating false.
+StrippedDemo=0
+
+; The demos section is how Sierra InstallShield supports dynamic demo selection.
+; To support demos, create a 'Demos' subdirectory off of the root directory (where Setup
+; is located).  In this subdirectory place each demo in its own uniquely named subdirectory.
+; Finally add an entry under the Demos section for each demo.
+
+
+PatchDate=10/15/98
+
+[System Test]
+; ScreenWidth is the X resolution of the required display
+ScreenWidth=640
+; ScreenHeight is the Y resolution of the required display
+ScreenHeight=480
+; Colors is the number of colors the display must be set for (minimum)
+Colors=65000
+; MemKB is the minimum amount of RAM physically present in KB
+; This should be adjusted for the possiblity of Shadow RAM or other RAM
+; being used by BIOS
+MemKB=23000
+; WinVer is the minimum version of Windows required
+; Possible values are:
+; 310 for Windows 3.1x
+; 395 for Windows 95
+; 400 for Windows NT
+WinVer=395
+; Wave is set to 1 if .WAV support is required
+Wave=1
+; MIDI is set to 1 if MIDI support is required
+MIDI=0
+; Processor is the minimum processor type and speed required for this 
+; application.  When setting this value, the format must be
+; processor-speed.  Setup is not intelligent enough to know that a
+; Pentium-60 is equivalent in speed to an 486-100.  Also setup is 
+; unable to make the distinction between processor requirement for
+; CPU functionality and for speed.
+; NOTE: Pentium-100's are not actually 100 MHz but 99 MHz.
+Processor=486-66
+
+[Setup]
+InstallShield=1
+
