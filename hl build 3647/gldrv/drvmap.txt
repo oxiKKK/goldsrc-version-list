@@ -1,0 +1,2 @@
+Default Default
+gldrv/3dfxgl.dll 3Dfx Mini Driver

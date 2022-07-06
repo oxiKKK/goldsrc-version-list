@@ -1,0 +1,7 @@
+Half-Life 1 Engine Update Released
+April 14, 2008, 2:46 PM · Jason Ruymen
+Updates to Half-Life 1 Engine have been released. The updates will be applied automatically when your Steam client is restarted. The specific changes include:
+
+Half-Life 1 Engine
+
+- Prevented various cvar exploits

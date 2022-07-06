@@ -1,0 +1,10 @@
+Counter-Strike 1.6 Update Released
+July 15, 2009, 11:15 AM · Jason Ruymen
+Updates to Counter-Strike 1.6 have been released. The updates will be applied automatically when your Steam client is restarted. The specific changes include:
+
+Half-Life Engine
+- Added -sys_ticrate command line option to allowed forced override of ticrate
+- Prevent more cases of server redirection
+
+Counter-Strike/Condition Zero
+- Added -nobots option to allow forced override of bots on servers
