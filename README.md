@@ -37,6 +37,7 @@ The original reverse-engineered GoldSrc build number generator can be found here
 
 | Manifest #          | Exe build string                    | Build # |
 | :----------------:  | ----------------------------------- | :-----: |
+| n/a                 | _"Exe: 09:16:51 Sep  4 1997"_       | 315     |
 | n/a                 | _"Exe: 21:52:31 Nov  1 1998"_       | 738     |
 | n/a                 | _"Exe: 10:41:25 May 11 1999"_       | 929     |
 | n/a                 | _"Exe build: 17:57:35 Sep 20 2001"_ | 1792    |
