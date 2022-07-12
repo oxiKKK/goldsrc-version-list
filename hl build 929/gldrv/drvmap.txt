@@ -1,2 +1,0 @@
-Default Default
-3dfxgl.dll 3Dfx Mini Driver
