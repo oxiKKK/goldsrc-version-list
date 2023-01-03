@@ -1,0 +1,3 @@
+Default Default
+3dfxVGL.dll 3Dfx OpenGL for Voodoo 1, 2 & Rush
+gldrv/3dfxgl.dll 3Dfx Mini Driver
