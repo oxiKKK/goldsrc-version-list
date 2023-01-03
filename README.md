@@ -1,16 +1,16 @@
-# :file_folder: Gold-Source Version List w/ binaries
+# GoldSrc build collection
 
-This is an `almost` complete list of all available goldsrc builds, their build dates and since `6th July 2022` this repository also contains a full set of original binaries for every single build listed below.
+This is an `almost` complete list of all available goldsrc builds, including their build dates, build number, and other userful information. I started this repository in order to have every build possible in one stable place, for reverse-engineering and historic purposes. I mainly use this information to compare internal code differences between each build.
 
-# :orange_book: Non-depot builds
+# Non-depot builds
 
-Non-depod builds, i.e. builds before 2013, were gathered from various resources from all over the interet. I'm aware of that there're various builds that I've missed, and so if you want to contribute to this project, feel free to. 
+Non-depod builds, i.e. builds before 2013, were gathered from various sources from all over the interet. I'm aware of that there're various builds that I've missed, and so if you want to contribute to this project, feel free to. 
 
-# :blue_book: Depot builds
+# Depot builds
 
-## :grey_question: How to download available depots
+## How to download available depots
 
-In order to download you need to have access to the steam console. You can access it via steam client.
+In order to download steam builds after 2013 you need to have access to the steam console. You can access it via steam client.
 
 1. Copy the `Manifest ID` you want to download. e.g. _1708995082918278930_ for the build _#5943_.
 2. Open the steam console. (you can use browser to do that, simply enter `steam://nav/console` and it will open the console via steam client.)
@@ -19,13 +19,13 @@ In order to download you need to have access to the steam console. You can acces
 
 Thanks to @lujiangz for pointing this out.
 
-## :grey_exclamation: Additional information about steam depots
+## Additional information about steam depots
 
 ### How to Download Older Versions of a Steam Game:
 
 _https://steamcommunity.com/sharedfiles/filedetails/?id=889624474_
 
-## :grey_question: How this was accomplished
+## How this was accomplished
 
 In order to download individual depots for GoldSrc i used _https://github.com/SteamRE/DepotDownloader_. However the other method that was described earlier can be used to download individual depots as well.
 
@@ -35,11 +35,11 @@ The original reverse-engineered GoldSrc build number generator can be found here
 
 # Decrypted builds
 
-Some of the older engine builds (2003 - 2006) are encypted by Valve's blob modules encryption algorithm. 
+Some of the older engine builds (2003 - 2008) are encypted by Valve's blob modules encryption algorithm. 
 
-I've designed an utility that is able to decrypt these encrypted DLLs into their original form. Such utility can be found here _[gsdescrypt](https://github.com/oxiKKK/goldsource-dll-decryptor)_.
+I've designed an utility that is able to decrypt these encrypted DLLs into their original form: _[gsdescrypt](https://github.com/oxiKKK/goldsource-dll-decryptor)_.
 
-# :page_facing_up: Actual list
+#  Actual list
 
 | Manifest #          | Exe build string                    | Build # | Encrypted |
 | :----------------:  | ----------------------------------- | :-----: | :-------: |
