@@ -56,6 +56,7 @@ I've designed an utility that is able to decrypt these encrypted DLLs into their
 | n/a                 | _"Exe build: 13:39:18 Jun  1 2001"_ | 1681    | no        |
 | n/a                 | _"Exe build: 17:57:35 Sep 20 2001"_ | 1792    | no        |
 | n/a                 | _"Exe build: 13:25:04 Jun 11 2002"_ | 2056    | yes       |
+| n/a                 | _"Exe build: 11:23:23 Jan 14 2003"_ | 2273    | yes       |
 | n/a                 | _"Exe build: 19:25:03 Sep 09 2003"_ | 2511    | yes       |
 | n/a                 | _"Exe build: 19:04:53 Sep 24 2003"_ | 2526    | yes       |
 | n/a                 | _"Exe build: 11:12:39 Dec 10 2003"_ | 2603    | yes       |

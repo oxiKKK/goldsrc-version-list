@@ -1,0 +1,8 @@
+"MasterServers"
+{
+	"1"
+	{
+		// main test tracker server
+		"address"	"tracker.valvesoftware.com:1200"
+	}
+}

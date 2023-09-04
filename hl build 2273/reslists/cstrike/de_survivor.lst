@@ -1,0 +1,14 @@
+cstrike\maps\de_survivor.bsp
+cstrike\maps\de_survivor.txt
+cstrike\gfx\env\snowlake_rt.tga
+cstrike\gfx\env\snowlake_bk.tga
+cstrike\gfx\env\snowlake_lf.tga
+cstrike\gfx\env\snowlake_ft.tga
+cstrike\gfx\env\snowlake_up.tga
+cstrike\gfx\env\snowlake_dn.tga
+cstrike\overviews\de_survivor.txt
+cstrike\overviews\de_survivor.bmp
+cstrike\sound\ambience\3dmstart.wav
+cstrike\sound\ambience\3dmthrill.wav
+cstrike\sound\plats\vehicle4.wav
+valve\events\train.sc

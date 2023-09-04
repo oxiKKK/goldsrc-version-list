@@ -1,0 +1,8 @@
+"Go"
+{
+	"DisplayName"	"Go"
+	"interface"	"SteamAddOnGo001"
+	"GameID"	"3"
+	"InviteUserMenu" "1"
+	"TrackerMainMenu" "0"
+}

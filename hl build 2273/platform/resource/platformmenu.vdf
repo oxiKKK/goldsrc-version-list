@@ -1,0 +1,59 @@
+// this file defines the contents of the platform menu
+"Platform"
+{
+	"Menu"
+	{
+		"Games"
+		{
+			"dll"		"Steam/steamUI.dll"
+			"interface"	"SteamUIGames001"
+			"MenuName"	"#App_Games"
+			"SteamApp"  "1"
+		}
+		"Friends"
+		{
+			"dll"		"Friends/trackerUI.dll"
+			"interface"	"VGuiModuleTracker001"
+			"MenuName"	"#App_Friends"
+		}
+		"Servers"
+		{
+			"dll"		"Servers/serverbrowser.dll"
+			"interface"	"VGuiModuleServerBrowser001"
+			"MenuName"	"#App_Servers"
+		}
+// not shipping in first beta release
+//		"Web Browser"
+//		{
+//			"dll"		"Browser/browser.dll"
+//			"interface" "VGuiModuleBrowser001"
+//			"MenuName"  "#App_Browser"
+//		}
+//		"Admin"
+//		{
+//			"dll"		"Admin/AdminServer.dll"
+//			"interface"	"VGuiModuleAdminServer001"
+//			"MenuName"	"#Admin_Servers"
+//		}
+		"Account"
+		{
+			"dll"		"Steam/steamUI.dll"
+			"interface"	"SteamUISubscriptions001"
+			"MenuName"	"#App_Account"
+			"SteamApp"  "1"
+		}
+		"Settings"
+		{
+			"dll"		"Friends/trackerUI.dll"
+			"interface" "VGuiModuleSettings001"
+			"MenuName"  "#App_Settings"
+		}
+//		"Special Offers"
+//		{
+//			"dll"		"Steam/steamUI.dll"
+//			"interface" "SteamUISpecialOffers001"
+//			"MenuName"  "#App_SpecialOffers"
+//			"SteamApp"  "1"
+//		}
+	}
+}

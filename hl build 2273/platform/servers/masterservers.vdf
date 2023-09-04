@@ -1,0 +1,16 @@
+"MasterServers"
+{
+	"1"
+	{
+		// internal grid server
+		"addr"	"207.173.177.10:27010"
+	}
+//	"2"
+//	{
+//		"addr"	"half-life.west.won.net:27010"
+//	}
+//	"3"
+//	{
+//		"addr"	"half-life.east.won.net:27010"
+//	}
+}

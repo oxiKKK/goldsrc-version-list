@@ -1,0 +1,56 @@
+// quick file that maps steam app id to game info
+"ClientGameInfo"
+{
+	// steam app id's
+	"Apps"
+	{
+		// half-life
+		"0"
+		{
+			"gamedir"	"valve"
+			"icon"		"resource/games/icon_hl"
+		}
+		// counter-strike
+		"1"
+		{
+			"gamedir"	"cstrike"
+			"icon"		"resource/games/icon_cs"
+		}
+		// Team Fortress Classic
+		"2"
+		{
+			"gamedir"	"tfc"
+			"icon"		"resource/games/icon_tfc"
+		}
+		// Deathmatch Classic
+		"3"
+		{
+			"gamedir"	"dmc"
+			"icon"		"resource/games/icon_dmc"
+		}
+		// Day of defeat
+		"4"
+		{
+			"gamedir"	"dod"
+			"icon"		"resource/games/icon_dod"
+		}
+		// Opposing Force
+		"5"
+		{
+			"gamedir"	"gearbox"
+			"icon"		"resource/games/icon_opfor"
+		}
+		// Ricochet
+		"6"
+		{
+			"gamedir"	"ricochet"
+			"icon"		"resource/games/icon_ric"
+		}
+		// Half-Life Dedicated Server
+		"7"
+		{
+			"gamedir"	"valve"
+			"icon"		"resource/games/icon_dedicated"
+			"NoServers" "1"		// this is not a game that shows up in the server browser (you don't play dedicated server, you join them)
+		}
+}

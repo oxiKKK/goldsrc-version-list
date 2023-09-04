@@ -1,0 +1,58 @@
+"Steam/WelcomeAccountCreateProgr"
+{
+	"AccountCreateProgressDialog"
+	{
+		"ControlName"		"Frame"
+		"fieldName"		"AccountCreateProgressDialog"
+		"wide"		"240"
+		"tall"		"180"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"
+	}
+	"FakeButton"
+	{
+		"ControlName"		"Button"
+		"fieldName"		"FakeButton"
+		"xpos"		"-100"
+		"ypos"		"-100"
+		"wide"		"64"
+		"tall"		"24"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"0"
+		"tabPosition"		"0"
+		"labelText"		"Cancel"
+		"textAlignment"		"west"
+		"default"		"0"
+	}
+	"WorkImage"
+	{
+		"ControlName"	"AnimatingImagePanel"
+		"fieldName"		"WorkImage"
+		"xpos"		"100"
+		"ypos"		"106"
+		"image" "resource/steam/c"
+		"frames" "20"
+	}
+	"InfoLabel"
+	{
+		"ControlName"		"Label"
+		"fieldName"		"InfoLabel"
+		"xpos"		"40"
+		"ypos"		"46"
+		"wide"		"180"
+		"tall"		"48"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"
+		"labelText"		"#WelcomeAccountCreateProgressInfo1"
+		"textAlignment"		"west"
+		"dulltext" "1"
+	}
+}

@@ -1,0 +1,58 @@
+"Steam/WelcomeAccountCreateProgr"
+{
+	"AccountCreateProgressDialog"
+	{
+		"ControlName"		"Frame"
+		"fieldName"		"AccountCreateProgressDialog"
+		"wide"		"380"
+		"tall"		"240"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"
+	}
+	"FakeButton"
+	{
+		"ControlName"		"Button"
+		"fieldName"		"FakeButton"
+		"xpos"		"-100"
+		"ypos"		"-100"
+		"wide"		"64"
+		"tall"		"24"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"0"
+		"tabPosition"		"0"
+		"labelText"		"Cancel"
+		"textAlignment"		"west"
+		"default"		"0"
+	}
+	"InfoLabel"
+	{
+		"ControlName"		"Label"
+		"fieldName"		"InfoLabel"
+		"xpos"		"40"
+		"ypos"		"46"
+		"wide"		"290"
+		"tall"		"48"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"
+		"labelText"		"#Steam_ProcessingSubscriptionInfo"
+		"textAlignment"		"west"
+		"dulltext" "1"
+	}
+	"WorkImage"
+	{
+		"ControlName"	"AnimatingImagePanel"
+		"fieldName"		"WorkImage"
+		"xpos"		"100"
+		"ypos"		"106"
+		"image" "resource/steam/c"
+		"frames" "20"
+	}
+}
