@@ -39,6 +39,10 @@ Some of the older engine builds (2003 - 2008) are encypted by Valve's blob modul
 
 I've designed an utility that is able to decrypt these encrypted DLLs into their original form: _[gsdescrypt](https://github.com/oxiKKK/goldsource-dll-decryptor)_.
 
+# Linux builds
+
+Those are in `linux` subdirectory, as they might have slightly different build dates and manifest IDs.
+
 #  Actual list
 
 | Manifest #          | Exe build string                    | Build # | Encrypted |
