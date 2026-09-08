@@ -2,6 +2,10 @@
 
 This is an `almost` complete list of all available goldsrc builds, including their build dates, build number, and other userful information. I started this repository in order to have every build possible in one stable place, for reverse-engineering and historic purposes. I mainly use this information to compare internal code differences between each build.
 
+# Disclaimer
+
+Use the executables and libraries in this repository at your own risk. They are provided as-is for historical preservation and research, without any guarantee of safety or functionality. The maintainers are not responsible for any damage or data loss resulting from their use.
+
 # Non-depot builds
 
 Non-depod builds, i.e. builds before 2013, were gathered from various sources from all over the interet. I'm aware of that there're various builds that I've missed, and so if you want to contribute to this project, feel free to. 
